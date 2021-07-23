@@ -1,9 +1,13 @@
 toggle = document.querySelector(".navbar-toggle")
+toggleSearch = document.querySelector(".toggle-search")
+searchBar = document.querySelector(".search-bar")
 navbar = document.querySelector(".bar")
 leftNavList = document.querySelector(".left-nav-list")
-rightNavList = document.querySelector(".right-nav-list")
 toggle.addEventListener('click',()=>{
     navbar.classList.toggle("media-bar")
     leftNavList.classList.toggle("media-list")
-/*    rightNavList.classList.toggle("media-search-list")*/
+    searchBar.classList.toggle("ssearch-bar")
+})
+toggleSearch.addEventListener('click',()=>{
+    searchBar.classList.toggle("ssearch-bar")
 })

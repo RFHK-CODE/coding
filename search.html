@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/search.css">
     <title>R.F.H.K</title>
 </head>
 <body>
-    <nav role="navigation" class="bar media-bar">
+    <nav class="bar media-bar">
         <ul class="left-nav-list media-list">
             <li>
                 <a class="logo" href="index.html"><img src="IMAGES/logo.png" alt="logo"></a>
@@ -18,26 +19,29 @@
             <li><a href="index.html">C/C++</a></li>
             <li><a href="index.html">JavaScript</a></li>
             <li><a href="index.html">Arduino</a></li>
+            <li><a class="toggle-search" href="search.html">Search</a></li>
         </ul>
         <form class="right-nav-list media-search-list">
             <input type="text" name="search" id="search" placeholder="Search Documents">
-            <button type="submit" class="search-btn"><img src="IMAGES/Search.png" alt="Search"></button>
+            <button class="search-btn"><img src="IMAGES/Search.png" alt="Search"></button>
         </form>
         <div class="navbar-toggle">
             <div class="icon-bar"></div>
             <div class="icon-bar"></div>
             <div class="icon-bar"></div>
         </div>
-        <div class="toggle-search"><img src="IMAGES/Search-inverse.png" alt=""></div>
-        <div class="search-bar ssearch-bar">
-            <input type="text" name="ssearch" id="ssearch" placeholder="Search Docs">
-        </div>
     </nav>
-    <div class="background">
-        <img src="IMAGES/Background.jpg" alt="background">
+    <div class="search-page">
+        <h2>Search</h2>
+        <form class="search-page-form">
+            <input class="search-page-input" type="text" placeholder="Search Documents">
+            <button class="search-page-btn"><img src="IMAGES/Search-inverse.png" alt="Search"></button>
+        </form>
+        <p>Enter item to search</p>
     </div>
     <script src="JavaScript/Toggle.js"></script>
-    <footer>
+    <footer class="footer">
+
     </footer>
 </body>
 </html>
