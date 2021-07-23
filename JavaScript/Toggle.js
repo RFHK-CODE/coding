@@ -4,10 +4,23 @@ searchBar = document.querySelector(".search-bar")
 navbar = document.querySelector(".bar")
 leftNavList = document.querySelector(".left-nav-list")
 toggle.addEventListener('click',()=>{
-    navbar.classList.toggle("media-bar")
-    leftNavList.classList.toggle("media-list")
-    searchBar.classList.toggle("ssearch-bar")
+    if (searchBar.classList.value != "search-bar") {
+        navbar.classList.toggle("media-bar")
+        leftNavList.classList.toggle("media-list")
+    }
+    else {
+        navbar.classList.toggle("media-bar")
+        leftNavList.classList.toggle("media-list")
+        searchBar.classList.toggle("ssearch-bar") 
+    }
 })
 toggleSearch.addEventListener('click',()=>{
-    searchBar.classList.toggle("ssearch-bar")
+    if (navbar.classList.value != "bar") {
+        searchBar.classList.toggle("ssearch-bar") 
+    }
+    else {
+        navbar.classList.toggle("media-bar")
+        leftNavList.classList.toggle("media-list")
+        searchBar.classList.toggle("ssearch-bar") 
+    }
 })
