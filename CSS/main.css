@@ -130,14 +130,6 @@ html{
 {
     display: block;
 }
-footer
-{
-    position:fixed;
-    bottom: 0;
-    background-color:#2C2C32;
-    height: 100px;
-    width: 100%;
-}
 @media (max-width:1240px){
     .left-nav-list
     {
