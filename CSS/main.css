@@ -41,12 +41,14 @@ html{
 .left-nav-list li a
 {
     color: white;
-    font-size: 27px;
+    font-size: 30px;
     text-decoration: none;
+    transition: font-size 0.1s
 }
 .left-nav-list li a:hover
 {
-    color: darkgray;
+    color:darkgrey;
+    font-size: 33px;
 }
 .right-nav-list
 {
@@ -144,14 +146,14 @@ html{
 {
     display: none;
 }
-footer
+/*footer
 {
     position:fixed;
     bottom: 0;
     background-color:#2C2C32;
     height: 100px;
     width: 100%;
-}
+}*/
 @media (max-width:1240px){
     .left-nav-list
     {
