@@ -6,21 +6,28 @@ html{
     background-color: rgb(211, 211, 211);
     scroll-behavior: smooth;
 }
-.vertical-bar {
-    list-style-type: none;
-    font-size: 50px;
-    height: 1000px;
-    width: 300px;
-    background-color: #f1f1f1;
+.horizontal-bar {
+    width: 100%;
 }
-.vertical-bar li a {
-    font-family: Arial, Helvetica, sans-serif;
-    display: block;
-    color: #000;
-    padding: 8px 16px;
+.horizontal-bar td
+{
     text-decoration: none;
 }
-.vertical-bar li a:hover {
-    background-color: #555;
-    color: white;
+.intro
+{
+    font-family:arial;
+}
+.intro h1
+{
+    font-size: 50px;
+    padding-left: 350px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.python-intro
+{
+    top: 0;
+    padding-left: 350px;
+    justify-content: center;
+    width: 70%;
 }

@@ -8,39 +8,45 @@
     <title>R.F.H.K</title>
 </head>
 <body>
-    <nav role="navigation" class="bar media-bar">
-        <ul class="left-nav-list media-list">
-            <li>
-                <a class="logo" href="index.html"><img src="IMAGES/logo.png" alt="logo"></a>
-            </li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="python.html">Python</a></li>
-            <li><a href="c.html">C/C++</a></li>
-            <li><a href="javaScript.html">JavaScript</a></li>
-            <li><a href="arduino.html">Arduino</a></li>
-        </ul>
-        <form class="right-nav-list media-search-list">
-            <input type="text" name="search" id="search" placeholder="Search Documents">
-            <button type="submit" class="search-btn"><img src="IMAGES/Search.png" alt="Search"></button>
-        </form>
-        <div class="navbar-toggle">
-            <div class="icon-bar"></div>
-            <div class="icon-bar"></div>
-            <div class="icon-bar"></div>
-        </div>
-        <div class="toggle-search toggle-search-click"><img src="IMAGES/Search-inverse.png" alt=""></div>
-        <div class="search-bar ssearch-bar">
-            <form class="toggle-search-form">
-                <input type="text" name="ssearch" id="ssearch" placeholder="Search Docs">
-                <button type="submit" class="toggle-search-btn"><img src="IMAGES/Search.png" alt=""></button>
-            </form>
-        </div>
-    </nav>
+    <div class="navbar" id="navbar">
+        <img class="logo" src="IMAGES/logo.png" alt="logo">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="python.html">Python</a>
+        <a href="c.html">C/C++</a>
+        <a href="javaScript.html">JavaScript</a>
+        <a href="arduino.html">Arduino</a>
+    </div>
+    <div class="navbar-toggle" onclick="toggle()">
+        <div class="icon-bar"></div>
+        <div class="icon-bar"></div>
+        <div class="icon-bar"></div>
+    </div>
     <div class="background">
         <img src="IMAGES/Background.jpg" alt="background">
+        <!-- <div class="top-text">
+            <p>Everything you need to know about programming</p>
+        </div> -->
     </div>
     <script src="JavaScript/Toggle.js"></script>
-    <!--<footer>
-    </footer>-->
+    <div class="main-python">
+        <br>
+        <br>
+        <h2>Python</h2>
+        <br>  
+        <p>
+            Python is an open-source (free) programming language that is used in web programming, data science, artificial intelligence, and many scientific applications.
+            Learning Python allows the programmer to focus on solving problems, rather than focusing on syntax.
+        </p>
+        <!-- <img src="IMAGES/python-logo.png"> -->
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+    <footer>
+    </footer>
 </body>
 </html>
