@@ -7,11 +7,21 @@ html{
     scroll-behavior: smooth;
 }
 .horizontal-bar {
+    margin-top: 65px;
+    position: fixed;
     width: 100%;
+    background-color: #2C2C32;
 }
-.horizontal-bar td
+.horizontal-bar a
 {
+    font-size: 52px;
     text-decoration: none;
+    text-align: center;
+    color: white;
+}
+.horizontal-bar a:hover
+{
+    background-color: black;
 }
 .intro
 {
@@ -19,8 +29,8 @@ html{
 }
 .intro h1
 {
+    text-align: center;
     font-size: 50px;
-    padding-left: 350px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
