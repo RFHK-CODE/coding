@@ -10,7 +10,7 @@
 <body>
     <div class="navbar" id="navbar">
         <img class="logo" src="IMAGES/logo.png" alt="logo">
-        <a href="index.html">Home</a>
+        <a href="index">Home</a>
         <a href="about.html">About</a>
         <a href="python.cs">Python</a>
         <a href="c.html">C/C++</a>
